@@ -1,3 +1,7 @@
+// recupero l'elemento dal DOM
+const section = document.querySelector("section");
+
+// dichiaro un array colla lista della spesa
 const listOfProducts = ["patatine fritte",
                         "cereali", 
                         "prodotti senza glutine", 
