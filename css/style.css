@@ -12,8 +12,24 @@ body{
 
 header{
     background-color: white;
-    height: 50px;
-    line-height: 50px;
+    height: 70px;
+    line-height: 70px;
+}
+
+.add{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+
+span{
+    border-radius: 50%;
+    border: 1px solid black;
+    
 }
 
 .text-bar{
@@ -43,4 +59,22 @@ li{
     border: 1px solid black;
     font-size: 42px;
     background-color: white;
+}
+
+footer{
+    background-color: white;
+    text-align: center;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.microphone{
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
 }
