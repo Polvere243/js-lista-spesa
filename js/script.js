@@ -20,5 +20,4 @@ console.table(listOfProducts);
 
 let shoppingList = "<ul>";
 
-
 shoppingList += "</ul>";
