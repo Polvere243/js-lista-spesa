@@ -1,1 +1,12 @@
-console.log("JS OK");
+const listOfProducts = ["patatine fritte",
+                        "cereali", 
+                        "prodotti senza glutine", 
+                        "fettine di petto di pollo", 
+                        "latte", 
+                        "insalata", 
+                        "pizze", 
+                        "supplì",
+                        "zucchero di canna",
+                        "filetti di pesce",
+                        "sale grosso",
+                        "cardamomo" ]
