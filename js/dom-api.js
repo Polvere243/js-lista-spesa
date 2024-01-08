@@ -15,17 +15,20 @@ const listOfProducts = ["patatine fritte",
                         "filetti di pesce",
                         "sale grosso",
                         "cardamomo" ]
-console.table(listOfProducts);
+
 
 // provo a stampare in pagina col template literal prima col ciclo for
 
 const list = document.createElement("ul");
 
-for (let i = 0; i < listOfProducts.length; i++) {
+While (list < listOfProducts.length) {
+    
     let item = document.createElement("li");
     item.append(listOfProducts[i]);
-    list.append(item);
+    i++;
+    
 }
+
 
 
 list.classList.add("list");
