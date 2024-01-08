@@ -18,7 +18,7 @@ console.table(listOfProducts);
 
 // provo a stampare in pagina col template literal prima col ciclo for
 
-let shoppingList = `<ul>`;
+let shoppingList = `<ul class="list">`;
 
 for (let i = 0; i < listOfProducts.length; i++) {
     const listItems = `<li>${listOfProducts[i]}</li>`;
