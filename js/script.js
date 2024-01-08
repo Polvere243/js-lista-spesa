@@ -17,13 +17,15 @@ const listOfProducts = ["patatine fritte",
                         "cardamomo" ]
 console.table(listOfProducts);
 
-// provo a stampare in pagina col template literal prima col ciclo for
-
+/* provo a stampare in pagina col template literal prima col ciclo for
+    poi col ciclo while
+ */ 
 let shoppingList = `<ul class="list">`;
-
-for (let i = 0; i < listOfProducts.length; i++) {
-    const listItems = `<li>${listOfProducts[i]}</li>`;
+let i = 0;
+while (i < listOfProducts.length) {
+    let listItems = `<li>${listOfProducts[i]}</li>`;
     shoppingList += listItems;
+    i++;
 }
 
 shoppingList += `</ul>`;
